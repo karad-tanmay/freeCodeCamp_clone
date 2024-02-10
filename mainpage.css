@@ -1,7 +1,7 @@
 
 body{
     background-color: rgb(27,27,50);
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .menubar{
@@ -56,14 +56,15 @@ body{
 .searchbox{
     background-color: rgb(59,59,79);
     border: 0;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 95%;
     height: 30px;
-    padding-top: 6px;
+    padding: 3px;
+    padding-left: 10px;
 }
 ::-webkit-input-placeholder{
     color: #d0d0d5;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #fcc-logo{
@@ -129,7 +130,7 @@ body{
     width: 50%;
     align-content: center;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .div_tp{
