@@ -67,6 +67,14 @@ body{
     font-weight: 400;
 }
 
+input, select, textarea{
+    color: white;
+}
+
+textarea:focus, input:focus {
+    color: white;
+}
+
 #fcc-logo{
     height: 24;
     width: 210;
@@ -218,8 +226,8 @@ body{
 
 .as_seen{
     background-color: #3b3b4f;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight: 600;
     font-family: 'Lato', sans-serif;
     color: rgb(208,208,213);
     text-align: center;
@@ -230,9 +238,10 @@ body{
     line-height: 100px;
 }
 
-#svg-asseen{
+#featured-logos{
     fill: rgb(208,208,213);
-    height: 10px;
+    height: 100px;
+    padding: 15px;
 }
 
 #review{
