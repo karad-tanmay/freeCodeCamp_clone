@@ -1,7 +1,16 @@
 
 body{
+    padding: 0;
     background-color: rgb(27,27,50);
     font-family: 'Lato', sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
 }
 
 .menubar{
@@ -14,12 +23,11 @@ body{
     display: flex;
     vertical-align: top;
     width: 100%;
-    margin-top: -5%;
 }
 
 .searchdiv{
     color: rgb(208,208,213);
-    width: 34%;
+    width: 42%;
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 18px;
@@ -57,7 +65,7 @@ body{
     background-color: rgb(59,59,79);
     border: 0;
     font-family: 'Lato', sans-serif;
-    width: 95%;
+    width: 69%;
     height: 30px;
     padding: 3px;
     padding-left: 10px;
@@ -77,9 +85,22 @@ textarea:focus, input:focus {
 
 #fcc-logo{
     height: 24;
-    width: 210;
-    margin-left: 8.2%;
-    margin-top: 5px;
+    width: 14em;
+    margin-left: 18px;
+    margin-right: 18px;
+    /* margin-top: 5px; */
+}
+
+.menubar_right{
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.subdiv_menuright{
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
 }
 
 .langchange{
@@ -87,7 +108,6 @@ textarea:focus, input:focus {
     border: 1px solid white;
     width: 35px;
     height: 31px;
-    margin-left: 27%;
     padding-left: 4.5px;
     padding-top: 3px;
 }
@@ -104,7 +124,6 @@ textarea:focus, input:focus {
     font-size: 18px;
     width: 70px;
     height: 31px;
-    margin-left: 0.7%;
     border: 1px solid white;
     font-family: 'Lato', sans-serif;
 }
@@ -123,7 +142,6 @@ textarea:focus, input:focus {
     background-image: linear-gradient(to bottom, #fec748, rgb(254,172,50));
     height: 31px;
     width: 80px;
-    margin-left: 0.7%;
     font-family: 'Lato', sans-serif;
 }
 
@@ -135,12 +153,16 @@ textarea:focus, input:focus {
     font-family: 'Lato', sans-serif;
 }
 
+.intro_section{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
 .div_intro{
     margin-top: 5%;
-    margin-left: 24%;
-    margin-right: 0;
     width: 50%;
-    align-content: center;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
@@ -236,6 +258,7 @@ textarea:focus, input:focus {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 100px;
+    width: 100%;
 }
 
 #featured-logos{
@@ -246,7 +269,7 @@ textarea:focus, input:focus {
 
 #review{
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     font-size: 45px;
     font-family: 'Lato', sans-serif;
@@ -313,4 +336,80 @@ textarea:focus, input:focus {
     background-image: none;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
+}
+
+.certifications_base{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.certi_main{
+    width: 60%;
+}
+
+.certi_heading{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #F5F6F7;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+#certi_list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.certi_subs{
+    border: solid rgb(245, 246, 247);
+    margin-bottom: 10px;
+    background-color: #3b3b4f;
+    /* height: 78px; */
+    font-size: 18px;
+}
+
+.certi_subs:hover{
+    background-color: rgb(245, 246, 247);
+    fill: #3b3b4f;
+    color: #3b3b4f;
+}
+
+.certi_sub_part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    color: rgb(245, 246, 247);
+}
+
+.logo_text:hover{
+    color: #3b3b4f;
+}
+
+.map-icon{
+    width: 50px;
+    max-height: 55px;
+    fill: rgb(245, 246, 247);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.map-icon:hover{
+    fill: #3b3b4f;
 }
